@@ -2,16 +2,20 @@
 <!-- creating calender using javascript -->
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title> Calender </title>
     <link rel="stylesheet" type="text/css" href="datepicker.css">
     <script type="text/javascript" src="datepicker.js"></script>
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
       var dp = new datePicker();
-      dp.buildCalender('dp');
-    </script>
+      dp.datePicker();
+    </script>-->
   </head>
   <body>
-    <div id="calender">
+    <div id="datePickerDiv">
+        <input type="text" id="date" onfocus="datePicker()">
+    </div>
+    <div id="calenderDiv">
     </div>
   </body>
 </html>
