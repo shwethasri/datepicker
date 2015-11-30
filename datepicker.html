@@ -6,14 +6,14 @@
     <title> Calender </title>
     <link rel="stylesheet" type="text/css" href="datepicker.css">
     <script type="text/javascript" src="datepicker.js"></script>
-    <!--<script type="text/javascript">
+    <script type="text/javascript">
       var dp = new datePicker();
-      dp.datePicker();
-    </script>-->
+      //dp.buildCalender('dp');
+    </script>
   </head>
   <body>
     <div id="datePickerDiv">
-        <input type="text" id="date" onfocus="datePicker()">
+        <input type="text" id="date" onfocus="dp.buildCalender('dp')">
     </div>
     <div id="calenderDiv">
     </div>
