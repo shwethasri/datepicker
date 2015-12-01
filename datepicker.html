@@ -7,13 +7,13 @@
     <link rel="stylesheet" type="text/css" href="datepicker.css">
     <script type="text/javascript" src="datepicker.js"></script>
     <script type="text/javascript">
-      var dp = new datePicker();
-      //dp.buildCalender('dp');
+      var datepicker = new datePicker();
+      datepicker.datePicker('datepicker');
     </script>
   </head>
   <body>
     <div id="datePickerDiv">
-        <input type="text" id="date" onfocus="dp.buildCalender('dp')">
+        <input type="text" id="date" onclick="datepicker.buildCalender()">
     </div>
     <div id="calenderDiv">
     </div>
